@@ -1,6 +1,6 @@
 # COSC4P01 Assignment 1 Exercise 1
 
-The objective of the exercise is to develop a user login system using Python, following Test Driven Development (TDD) methodology. I will use Python 3.9.8 for the implementation, and pytest for the unit tests.
+The objective of the exercise is to develop a user login system using Python, following Test Driven Development (TDD) methodology. I will use Python 3.9.13 for the implementation, and pytest for the unit tests.
 
 ## Unit Test Cases
 
