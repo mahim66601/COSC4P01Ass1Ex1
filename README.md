@@ -2,6 +2,21 @@
 
 The objective of the exercise is to develop a user login system using Python, following Test Driven Development (TDD) methodology. I will use Python 3.9.13 for the implementation, and pytest for the unit tests.
 
+## How to Run
+
+This implementation tested with pytest. Please install pytest to test the code.
+
+```console
+pip install pytest
+pytest
+```
+
+The authentication.py file can be run to enter username and password through the console, a sample credentials can be found in the data.json file (`{username, password}`).
+
+```console
+python ./authentication.py
+```
+
 ## Unit Test Cases
 
 1. Verify that the username and password fields are not empty.
