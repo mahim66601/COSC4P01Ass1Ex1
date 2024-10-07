@@ -29,10 +29,10 @@ def login(username:str, password:str) -> bool:
 
 def main():
     """Main function to run the login program, until the user logs in successfully or has failed three times to login
-    """    
+    """
     global failed_attempts
     failed_attempts = 0
-    while (failed_attempts < 3):
+    while (failed_attempts <= 3):
         username = input('Enter username: ')
         password = input('Enter password: ')
         if login(username, password):
